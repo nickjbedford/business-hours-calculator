@@ -1,0 +1,31 @@
+{
+	"name": "nickjbedford/business-hours-calculator",
+	"type": "library",
+	"description": "Calculates the number of business hours between two timestamps.",
+	"keywords": [
+		"business hours", "bcmath"
+	],
+	"homepage": "https://github.com/nickjbedford/business-hours-calculator",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nick Bedford",
+			"email": "nick@nickbedford.com",
+			"homepage": "https://www.nickjbedford.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"YetAnother\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=7.4",
+		"ext-bcmath": "*",
+		"nickjbedford/decimal": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	}
+}
